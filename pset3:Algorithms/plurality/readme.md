@@ -1,5 +1,6 @@
 ## Plurality
 Implement a program that runs a plurality election, per the below.
+<br/>
 <code>
 $ ./plurality Alice Bob Charlie
 Number of voters: 4
@@ -9,6 +10,7 @@ Vote: Charlie
 Vote: Alice
 Alice
 </code>
+<br/>
 ## Background
 Elections come in all shapes and sizes. In the UK, the Prime Minister is officially appointed by the monarch, who generally chooses the leader of the political party that wins the most seats in the House of Commons. The United States uses a multi-step Electoral College process where citizens vote on how each state should allocate Electors who then elect the President.
 
@@ -38,6 +40,7 @@ It is possible that the election could end in a tie if multiple candidates each 
 You should not modify anything else in plurality.c other than the implementations of the vote and print_winner functions (and the inclusion of additional header files, if you’d like).
 
 Usage
+<br/>
 <code>
 $ ./plurality Alice Bob
 Number of voters: 3
@@ -45,6 +48,7 @@ Vote: Alice
 Vote: Bob
 Vote: Alice
 Alice
+  <br/>
 $ ./plurality Alice Bob
 Number of voters: 3
 Vote: Alice
@@ -52,6 +56,7 @@ Vote: Charlie
 Invalid vote.
 Vote: Alice
 Alice
+  <br/>
 $ ./plurality Alice Bob Charlie
 Number of voters: 5
 Vote: Alice
